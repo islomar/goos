@@ -37,4 +37,5 @@ dependencies {
     testCompile("org.mockito:mockito-core:${mockitoVersion}")
     testCompile("org.junit.jupiter:junit-jupiter-api:${junitJupiterVersion}")
     testRuntime("org.junit.jupiter:junit-jupiter-engine:${junitJupiterVersion}")
+    compile group: 'com.googlecode.windowlicker', name: 'windowlicker-swing', version: 'r268'
 }
